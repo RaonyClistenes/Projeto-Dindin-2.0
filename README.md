@@ -16,7 +16,7 @@ Funcionalidades
 
 Instalação
 
-    Faça o clone deste repositório: git clone https://github.com/seu-usuario/dindim.git
+    Faça o clone deste repositório: git clone https://github.com/RaonyClistenes/dindim.git
     Entre na pasta do projeto: cd dindim
     Instale as dependências: npm install
 
@@ -37,4 +37,3 @@ Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests ou entrar em contato com a equipe do projeto.
 Licença
 
-Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para obter mais informações.
