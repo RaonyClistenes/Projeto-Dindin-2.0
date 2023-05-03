@@ -1,4 +1,5 @@
 # Dindim
+![](https://i.imgur.com/S9aOJEA.png);
 
 Dindim é um gerenciador financeiro que permite ao usuário fazer cadastro, login e gerenciar suas entradas e saídas financeiras.
 
