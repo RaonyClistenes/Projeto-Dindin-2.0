@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.container_main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.header_main {
+    display: flex;
+    background: linear-gradient(90.23deg, #05EDE3 0.02%, #645FFB 99.63%);
+    width: 100%;
+    height: 224px;
+}
+
+.icon_logo {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+}
+
+.name_logout {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 40%;
+    gap: 10px;
+}
+
+.avatar {
+    width: 56px;
+    height: 56px;
+    cursor: pointer;
+}
+
+.logout {
+    width: 22px;
+    height: 27.5px;
+    cursor: pointer;
+}
+
+.container_filter {
+    width: 100%;
+    border-radius: 60px 60px 0px 0px;
+    height: 65px;
+    display: flex;
+    align-items: last baseline;
+    position: absolute;
+    top: 160px;
+    background-color: #ffffff;
+    gap: 2px;
+    font-family: Lato;
+}
+
+.filter {
+    margin-left: 36px;
+    display: flex;
+    width: 80px;
+    height: 30px;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.section_main {
+    display: flex;
+    width: 100%;
+    gap: 34px;
+}
+
+.description {
+    width: 964px;
+    height: 327px;
+    display: flex;
+}
+
+thead {
+    background-color: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 964px;
+    height: 58px;
+    display: flex;
+    gap: 30px;
+}
+tbody{
+    overflow-x: auto;
+}
+.table_description {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.topic {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.values_topics {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 58px;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+
+}
+
+.td_value {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    font-family: Lato;
+    line-height: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.name_user {
+    color: #ffffff;
+    font-family: Rubik;
+}
+
+.icons_table {
+    display: flex;
+    gap: 10px;
+}
+
+.icon_pencil,
+.icon_trash {
+    cursor: pointer;
+}
+
+.container_summary {
+    display: flex;
+    flex-direction: column;
+    height: 196px;
+    width: 236px;
+    gap: 5px;
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    gap: 30px;
+    padding: 33px;
+}
+
+.title_resume {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.33px;
+    font-family: Rubik;
+    color: #2F2F2F;
+
+}
+
+.button_add_reg {
+    width: 100%;
+    height: 46px;
+    background-color: #7978D9;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.59px;
+    border-radius: 5px;
+}
+
+.container_inputs_outputs,
+.container_balance {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.input,
+.output,
+.balance {
+    display: flex;
+    justify-content: space-between;
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15.41px;
+    color: #2F2F2F;
+}
+
+.positive_value {
+    font-family: Rubik;
+    color: #645FFB;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15.41px;
+}
+
+.negative_value {
+    font-family: Rubik;
+    color: #FA8C10;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15.41px;
+}
+.value_balance{
+    color:#3A9FF1 ;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15.41px;
+}
+.positive{
+    color: #7B61FF;
+}
+.negative{
+    color: #FA8C10;
+}
